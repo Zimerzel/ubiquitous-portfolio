@@ -6,7 +6,7 @@
 
 
 body {
-    background-color:rgba(102, 108, 114, 0.801);
+    background-color:rgba(204, 204, 204, 0.801);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -18,7 +18,7 @@ header {
   position: relative;
   top: 0;
   border-style: 6px solid rgb(0, 0, 0);
-  background-image: url("https://image.freepik.com/free-photo/dark-gray-horizontal-lines-texture_1194-5951.jpg");
+  background-image: url("https://www.onlyinyourstate.com/wp-content/uploads/2019/03/CO-GettyImages-520774787-o.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -85,7 +85,7 @@ header nav ul li a:hover {
 
 
 .hero h3 {
-  text-align: center;
+  text-align: right;
 display: flex;
 flex-wrap: wrap;
 justify-content:space-around;
@@ -187,15 +187,35 @@ position:absolute;
 
 .container2 img , .container3 img{
   width: 90%;
-  height: auto;
-  border: 5px solid black;
-  margin: 0px 5px;
+  height: 80%;
+  border: 5px solid rgb(0, 0, 0);
+  margin: 10px 5px;
   opacity: 50%;
 }
 
 .resume img {
   width: 100%;
   height: auto;
+}
+
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#cinfo {
+width: 100%;
+margin: auto 10px;;
+}
+
+#imgresume {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 10px 10px;
 }
 
 @media screen and (max-width: 980px) {
@@ -228,7 +248,7 @@ position:absolute;
   }
     
   .info h2 {
-    lex: 1 100%;
+    flex: 1 100%;
     text-align: left;
   }
     
@@ -242,7 +262,6 @@ position:absolute;
     margin-top: 15px;
     margin-bottom: 15px;
   }
-
 }
 
 @media screen and (max-width: 575px) {
@@ -269,10 +288,13 @@ position:absolute;
 
   .contact-info {
     text-align: center;
+    flex-wrap: wrap;
+    display: flex;
   }
   
   .contact-info > * {
-    flex: 0 100%;
+    flex-wrap: wrap;
+    justify-content:center;
   }
      
   .contact-form {
