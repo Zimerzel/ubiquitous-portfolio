@@ -13,4 +13,4 @@ https://zimerzel.github.io/ubiquitous-portfolio/
 ## Contribution
 Made by [Zach Imerzel]
 
-![image](assets/images/portfolio123.PNG)
+![portfolio](https://user-images.githubusercontent.com/79726069/124840726-3e918000-df51-11eb-93b8-d1f3a36d6a9b.PNG)
